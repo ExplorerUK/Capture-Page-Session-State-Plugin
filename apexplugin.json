@@ -1,0 +1,35 @@
+{
+  "name" : "Capture Page Session State",
+  "version" : "19.2.0",
+  "description" : "Captures Session State Information on initial page render, e.g value, if hidden (via condition, build option, authorization) & more",
+  "keywords" : ["session", "state"],
+  "homepage" : "https://github.com/ExplorerUK/Capture-Page-Session-State-Plugin",
+  "bugs" : {
+    "url" : "https://github.com/ExplorerUK/Capture-Page-Session-State-Plugin/issues",
+    "email" : "matt.mulvaney@explorer.uk.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Matt Mulvaney",
+    "email" : "matt.mulvaney@explorer.uk.com",
+    "url" : "https://explorer.co.uk/blog",
+    "twitter" : "Matt_Mulvaney",
+    "donationUrl" : "https://www.justgiving.com/saintmichaelshospice"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ExplorerUK/Capture-Page-Session-State-Plugin.git"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["19.1.0","19.2.0"],
+      "plugin" : {
+        "internalName" : "COM.UK.EXPLORER.PSS",
+        "type" : "process",
+        "demo" : "https://apex.oracle.com",
+        "previewImage" : "https://raw.githubusercontent.com/ExplorerUK/Capture-Page-Session-State-Plugin/master/preview.gif"
+      }
+    }
+  }
+}
